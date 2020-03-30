@@ -1,0 +1,41 @@
+INPUTS:
+- Atacar: Left Mouse Click
+- Poseer: T
+- Restart Game: R
+- Crouch: Left Ctrl 
+
+PUNTOS IMPLEMENTADOS:
+-(0.5p) Crear un Terrain como base jugable, texturizado y con vegetación
+
+-(0.5p) Todas las entradas nuevas de input (crear al menos 2) deberán estar mapeadas con Actions/Axis en vez
+de por eventos directos de teclado/mouse
+
+-(1p) Crear al menos 3 triggers con diferentes funcionalidades de entre las siguiente opciones:
+	- Item recolectable (Cubo gris, suma uno a las monedas)
+	- Zona de muerte (Hay un pequeño cubo con textura que quita 1 de vida al player, hasta morir a los 5p de vida)
+	- Zona de inversión de controles (Hay un fuego que al cruzarlo te invierte los controles durante 5 segundos)
+
+-(1p) Crear un HUD que muestre al menos 3 de las siguientes cosas
+
+-(1p) Añadir 2 estados en el animation blueprint del Third Person con nuevas animaciones para el personaje
+de entre las siguientes opciones:
+	- Idle agachado
+	- Caminar agachado
+
+-(0.5p) Crear alguna funcionalidad entre las siguientes, en el Level Blueprint
+	- Restart Game
+
+-(1p) Crear al menos 2 animaciones para los elementos del HUD
+
+-(0.5p) Aplicar la funcionalidad de que el player pueda poseer alguna IA
+(Al pulsar la tecla de poseer se cambia el pawn poseido durante un segundo y medio, luego vuelve al original)
+
+-(1p) Crear una secuencia que contenga al menos 4 de las siguientes opciones
+	- Pincha una nueva cámara
+	- Bloquea los controles del player
+	- Lanza un sonido
+	- Mueve algún elemento de la escena
+
+-(0.5p) Crear y lanzar un sonido que al menos tenga 2 de estas características
+	- Que cuando se lance no siempre suene el mismo clip
+	- Modificar su pitch de manera aleatoria entre dos valores
